@@ -1,0 +1,25 @@
+@media (max-width:800px){
+    #intro-div{
+        flex-direction: column;
+    }
+    #input-text{
+        max-width:85%;
+        margin: auto;
+    }
+    #clear-button{
+        margin-left: 37%;
+    }
+    #go-button{
+        margin-left:2%;
+    }
+    #result{
+        margin-top: 60px;
+        margin: auto;
+        padding-left: 0%;
+        max-width: 90%;
+    }
+    #result h3{
+        font-size: 19px;
+        margin:10px 0px
+    }
+}

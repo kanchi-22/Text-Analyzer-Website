@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Analyzer</title>
+    <script src="https://kit.fontawesome.com/3a48700ee2.js" crossorigin="anonymous"></script>
+    <link rel="icon"  href="img/favicon.PNG"/>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <i class="fas fa-paragraph" id="logo"></i>
+        <h2 id="nav-heading" href="#">Text Analyzer</h2>
+        <i class="fas fa-user-circle" id="profile-icon"></i>
+    </nav>
+    <div id="intro-div">
+        <div id="entering-text">
+            <h1>Analyze your text<span>.</span></h1>
+            <h2>Get to know word-count, sentence-count, punctuation-count, capital letters count for your text with one click.</h2>
+            <h3>Paste your text below:</h3>
+            <textarea id="input-text"></textarea>
+            <button id="clear-button"><b>Clear</b></button>
+            <button id="go-button"><b>Go!</b></button>
+        </div>
+        <div id="result">
+            <h3 id="word-count"></h3>
+            <h3 id="sentence-count"></h3>
+            <h3 id="punctuation-count"></h3>
+            <h3 id="cLetter-count"></h3>
+        </div>
+    </div>
+    <div id="searching">
+        <h3>Search for occurrence of a particular word:</h3>
+        <input placeholder="Enter the word" id="keyword">
+        <button id="search-button">Search</button>
+    </div>
+    <div id="search-result">
+        <h3 id="search-result"></h3>
+    </div>
+    <footer>
+        <p><u>Have a look at some of my other projects:</u></p>
+        <a href="https://kanchi-22.github.io/Bitly-Website/" target="_blank">Bitly Website Clone</a>
+        <a href="https://kanchi-22.github.io/Notes-Website/" target="_blank">Notes Taking Website</a>
+        <a href="https://kanchi-22.github.io/Calculator-Website/" target="_blank">Calculator</a>
+    </footer>
+</body>
+<script src="app.js"></script>
+</html>

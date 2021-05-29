@@ -1,0 +1,164 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Exo 2', sans-serif;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+li{
+    list-style: none;
+}
+nav{
+    display: flex;
+    height:60px;
+    width: 100%;
+    background-color: rgb(3, 34, 27);
+    color:rgb(240, 207, 19);
+    position:fixed;
+}
+#logo{
+    transform: scale(1.4);
+    padding-top:20px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+#nav-heading{
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 12px;
+    cursor: pointer;
+}
+#profile-icon{
+    transform: scale(1.5);
+    padding-top:20px;   
+    margin-left: auto;
+    margin-right: 30px;
+    float: right;
+    cursor: pointer;
+}
+#intro-div{
+    background-color: rgb(65, 236, 156);
+    padding-bottom: 40px;
+    display: flex;
+    padding-top: 60px;
+}
+#intro-div h1{
+    font-size: 64px;
+    color:black;
+    margin-top: 0px;
+    padding-left: 30px;
+    /* padding-top: 60px; */
+}
+#intro-div h2{
+    padding-left: 30px;
+    width: 40%;
+    margin-top: 0px;
+    padding-bottom: 30px;
+    font-size: 26px;
+}
+#intro-div h3{
+    padding-left: 30px;
+}
+#input-text{
+    display: block;
+    margin-left: 30px;
+    font-size: 20px;
+    height:300px;
+    width:450px;
+    background-color:rgba(251, 255, 0, 0.301) ;
+    border:rgb(3, 34, 27) 2px dashed;
+}
+#clear-button{
+    display: inline;
+    height:40px;
+    width:80px;
+    margin-top: 15px;
+    margin-left: 300px;
+    color: white;
+    background-color: rgb(3, 34, 27);
+    border-radius: 5px;
+}
+#go-button{
+    display: inline;
+    height:40px;
+    width:80px;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: white;
+    background-color: rgb(3, 34, 27);
+    border-radius: 5px;
+}
+#clear-button:hover , #go-button:hover, #search-button:hover{
+    color: rgb(3, 34, 27);
+    background-color: rgba(251, 255, 0, 0.301);
+}
+span{
+    color: rgb(251, 255, 0);
+}
+#result{
+    color: rgb(3, 34, 27);
+    padding-right: 10%;
+}
+#result h3{
+    font-size: 40px;
+    margin: 30px 0px;
+}
+#searching{
+    background-color: rgb(65, 236, 156);
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+#searching h3{
+    display: block;
+    padding-left: 30px;
+    font-size: 28px;
+}
+#search-button{
+    height:40px;
+    width:80px;
+    color: white;
+    background-color: rgb(3, 34, 27);
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 0.5%;
+}
+#keyword{
+    margin-left: 30px;
+    height:35px;
+    width:220px;
+    font-size: 16px;
+    background-color: rgba(251, 255, 0, 0.301);
+    border:rgb(3, 34, 27) 2px dashed;
+}
+#search-result{
+    margin-top: 0px;
+    padding-left: 30px;
+    color: rgb(3, 34, 27);
+    background-color: rgb(65, 236, 156);
+    padding-bottom: 20px;
+    font-size: 26px;
+}
+footer{
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: rgb(3, 34, 27);
+    color: white;
+}
+footer a{
+    display: block;
+    color: white;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+footer p{
+    font-size: 20px;
+}
+footer a:hover{
+    color: rgb(251, 255, 0);
+}
